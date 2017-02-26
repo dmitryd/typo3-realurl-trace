@@ -1,0 +1,8 @@
+# cat=basic/enable; type=string; label=Orginal URL regular expression:If the original URL matches this regular expression, stack trace will be logged
+originalUrlRegExp = /tx_mycontroller\[action\]=helloWorld/
+
+# cat=basic/enable; type=string; label=Speaking URL regular expression:If the generated URL matches this regular expression, stack trace will be logged
+speakingUrlRegExp = /\/helloWorld\//
+
+# cat=basic/enable; type=string; label=Log file path:Path to the log file relative to the web site root. Entries will be appended to the file.
+logFilePath = typo3temp/realurl-trace.log
