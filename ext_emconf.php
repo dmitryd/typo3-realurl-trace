@@ -12,7 +12,7 @@ $EM_CONF[$_EXTKEY] = array (
   'title' => 'Logs for Realurl',
   'description' => 'Logs stack trace when a certain URL gets into the cache',
   'category' => 'services',
-  'version' => '1.0.0',
+  'version' => '1.0.1',
   'state' => 'stable',
   'uploadfolder' => 0,
   'createDirs' => '',
@@ -25,9 +25,9 @@ $EM_CONF[$_EXTKEY] = array (
   array (
     'depends' => 
     array (
-      'typo3' => '6.2.0-8.999.999',
-      'php' => '5.4.0-7.0.999',
-      'realurl' => '2.1.5-2.5.999',
+      'typo3' => '6.2.0-8.7.999',
+      'php' => '5.4.0-7.3.999',
+      'realurl' => '2.1.5-2.6.999',
     ),
     'conflicts' => 
     array (
@@ -36,8 +36,6 @@ $EM_CONF[$_EXTKEY] = array (
     array (
     ),
   ),
-  'comment' => 'Bug fix release',
+  'comment' => 'Support newer versions',
   'user' => 'dmitry',
 );
-
-?>
